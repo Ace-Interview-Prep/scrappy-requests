@@ -21,7 +21,7 @@ in mkDerivation {
   libraryHaskellDepends = [
     aeson base bytestring containers directory http-client
     http-client-tls http-types lens modern-uri network-uri parsec
-    parser-combinators scrappy-core text time transformers scrappy-core 
+    parser-combinators text time transformers scrappy-core 
   ];
   homepage = "https://github.com/Ace-Interview-Prep/scrappy";
   description = "html pattern matching library and high-level interface concurrent requests lib for webscraping";
